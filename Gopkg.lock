@@ -3,133 +3,185 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:8db140994711855987453e9ee8300ae01fa5c267392837a1b7f75c043c33780f"
   name = "github.com/FernandoCagale/serverless-infra"
   packages = [
     "errors",
     "infra",
     "jwt",
     "logger",
-    "render"
+    "render",
   ]
+  pruneopts = "UT"
   revision = "5f98ab2e6b32b7fe0d2de3a28f37ed263b1e26bf"
 
 [[projects]]
+  digest = "1:d867dfa6751c8d7a435821ad3b736310c2ed68945d05b50fb9d23aee0540c8cc"
   name = "github.com/Sirupsen/logrus"
   packages = ["."]
+  pruneopts = "UT"
   revision = "3e01752db0189b9157070a0e1668a620f9a85da2"
   version = "v1.0.6"
 
 [[projects]]
   branch = "master"
+  digest = "1:e4fd8a4041e47ec6cb6c38ad4baf4f1f37278c7ba23625905147a5823885787a"
   name = "github.com/auth0/go-jwt-middleware"
   packages = ["."]
+  pruneopts = "UT"
   revision = "5493cabe49f7bfa6e2ec444a09d334d90cd4e2bd"
 
 [[projects]]
+  digest = "1:9b7f11ffde8d2eaab87e548ec5568e77ec09e8b5ec121551c534a05c8de4a693"
   name = "github.com/aws/aws-lambda-go"
   packages = [
     "events",
     "lambda",
     "lambda/messages",
-    "lambdacontext"
+    "lambdacontext",
   ]
+  pruneopts = "UT"
   revision = "5fea2b254568d4043f23d27471ae265cd33d3530"
 
 [[projects]]
   branch = "master"
+  digest = "1:9f82eebad225721e1069c32bcac6bdca0da6af4fe5488aef552498cc22e7a898"
   name = "github.com/awslabs/aws-lambda-go-api-proxy"
   packages = [
     "core",
-    "negroni"
+    "negroni",
   ]
+  pruneopts = "UT"
   revision = "3a4d35011e4a52d877a5fcb0aa494bbb4d20e27b"
 
 [[projects]]
+  digest = "1:ffe9824d294da03b391f44e1ae8281281b4afc1bdaa9588c9097785e3af10cec"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
+  pruneopts = "UT"
   revision = "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
   version = "v1.1.1"
 
 [[projects]]
   branch = "master"
+  digest = "1:6e9d2dddd10b5668251398cbd9848b2ea7ebec447d88255abd1437b96c487eb4"
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
+  pruneopts = "UT"
   revision = "0b96aaa707760d6ab28d9b9d1913ff5993328bae"
 
 [[projects]]
+  digest = "1:c73968eeebb707f80e1282948345e5250810e3d3c52348e5d7818090f592f5d2"
   name = "github.com/go-ozzo/ozzo-validation"
   packages = ["."]
+  pruneopts = "UT"
   revision = "9d6782aa52aad2ec5f3ea5af63b7dc4bc5192c40"
   version = "v3.4.0"
 
 [[projects]]
+  digest = "1:c79fb010be38a59d657c48c6ba1d003a8aa651fa56b579d959d74573b7dff8e1"
   name = "github.com/gorilla/context"
   packages = ["."]
+  pruneopts = "UT"
   revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
   version = "v1.1.1"
 
 [[projects]]
+  digest = "1:e73f5b0152105f18bc131fba127d9949305c8693f8a762588a82a48f61756f5f"
   name = "github.com/gorilla/mux"
   packages = ["."]
+  pruneopts = "UT"
   revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
   version = "v1.6.2"
 
 [[projects]]
+  digest = "1:235ae01f32fb5f12c5f6d2e0e05ab48e651ab31c126e45a4efc4f510810941ac"
   name = "github.com/jinzhu/gorm"
   packages = ["."]
+  pruneopts = "UT"
   revision = "6ed508ec6a4ecb3531899a69cbc746ccf65a4166"
   version = "v1.9.1"
 
 [[projects]]
   branch = "master"
+  digest = "1:fd97437fbb6b7dce04132cf06775bd258cce305c44add58eb55ca86c6c325160"
   name = "github.com/jinzhu/inflection"
   packages = ["."]
+  pruneopts = "UT"
   revision = "04140366298a54a039076d798123ffa108fff46c"
 
 [[projects]]
+  digest = "1:8ef506fc2bb9ced9b151dafa592d4046063d744c646c1bbe801982ce87e4bc24"
   name = "github.com/lib/pq"
   packages = [
     ".",
-    "oid"
+    "oid",
   ]
+  pruneopts = "UT"
   revision = "4ded0e9383f75c197b3a2aaa6d590ac52df6fd79"
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
+  pruneopts = "UT"
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:18752d0b95816a1b777505a97f71c7467a8445b8ffb55631a7bf779f6ba4fa83"
   name = "github.com/stretchr/testify"
   packages = ["assert"]
+  pruneopts = "UT"
   revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
   version = "v1.2.2"
 
 [[projects]]
+  digest = "1:c1640d24bf90b363f5235ec34d4d53ed8d294daa2fb430c9e5a74e4b649edc2a"
   name = "github.com/urfave/negroni"
   packages = ["."]
+  pruneopts = "UT"
   revision = "22c5532ea862c34fdad414e90f8cc00b4f6f4cab"
 
 [[projects]]
   branch = "master"
+  digest = "1:3f3a05ae0b95893d90b9b3b5afdb79a9b3d96e4e36e099d841ae602e4aca0da8"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
+  pruneopts = "UT"
   revision = "0709b304e793a5edb4a2c0145f281ecdc20838a4"
 
 [[projects]]
   branch = "master"
+  digest = "1:629034aef6b53eb8ea737e6d82cb5402907e2757fbab5ddf5e74c08b4c6473af"
   name = "golang.org/x/sys"
   packages = [
     "unix",
-    "windows"
+    "windows",
   ]
+  pruneopts = "UT"
   revision = "2b024373dcd9800f0cae693839fac6ede8d64a8c"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "3e1c3d7058cde8f47774fbdff06dd71aae4f87932c4c3de40a8cfcf566866fa7"
+  input-imports = [
+    "github.com/FernandoCagale/serverless-infra/errors",
+    "github.com/FernandoCagale/serverless-infra/infra",
+    "github.com/FernandoCagale/serverless-infra/jwt",
+    "github.com/FernandoCagale/serverless-infra/logger",
+    "github.com/FernandoCagale/serverless-infra/render",
+    "github.com/auth0/go-jwt-middleware",
+    "github.com/aws/aws-lambda-go/events",
+    "github.com/aws/aws-lambda-go/lambda",
+    "github.com/awslabs/aws-lambda-go-api-proxy/negroni",
+    "github.com/go-ozzo/ozzo-validation",
+    "github.com/gorilla/mux",
+    "github.com/jinzhu/gorm",
+    "github.com/lib/pq",
+    "github.com/stretchr/testify/assert",
+    "github.com/urfave/negroni",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
